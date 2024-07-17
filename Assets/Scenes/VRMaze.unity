@@ -13353,7 +13353,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 3e-45, z: 2.3794e-41, w: -1.0827405e-37}
+  m_BoundingSphereOverride: {x: 9.1835e-41, y: -1.4964996e-36, z: 9.75e-43, w: 6e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -15369,7 +15369,7 @@ GameObject:
   - component: {fileID: 2096688070}
   - component: {fileID: 2096688069}
   m_Layer: 0
-  m_Name: Floor (1)
+  m_Name: Floor_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
