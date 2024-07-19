@@ -12178,10 +12178,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 807051348}
     m_Modifications:
-    - target: {fileID: 3735047472340101370, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 487833529046422131, guid: 809f547a3767dbe42bb40dce1d88552e, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -12344,6 +12340,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9213841042329470732, guid: 809f547a3767dbe42bb40dce1d88552e, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735047472340101370, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
+      propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13353,7 +13353,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 9.1835e-41, y: -1.4964996e-36, z: 9.75e-43, w: 6e-44}
+  m_BoundingSphereOverride: {x: -8388608, y: 1e-44, z: 0, w: 1.0596675e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -17358,7 +17358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8298045291338814965, guid: 188ea07c6da828b47822e294a6deddaa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.11
+      value: 3.694
       objectReference: {fileID: 0}
     - target: {fileID: 8298045291338814965, guid: 188ea07c6da828b47822e294a6deddaa, type: 3}
       propertyPath: m_LocalRotation.w
