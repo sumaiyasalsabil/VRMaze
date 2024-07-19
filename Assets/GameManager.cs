@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        nt.startPrediction(10);
+        nt.startCalibration(10);
     }
 
     // Update is called once per frame
