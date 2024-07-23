@@ -6446,6 +6446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d2ed6b62e54a5849bf2d5aa3f755a61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nCalibrationTrials: 10
+  nPredictionTrials: 10
 --- !u!4 &796352013
 Transform:
   m_ObjectHideFlags: 0
@@ -13548,7 +13550,7 @@ MonoBehaviour:
   signalQualityEvent:
     m_PersistentCalls:
       m_Calls: []
-  decoderAddress: 
+  decoderAddress: 127.0.0.1
   isRunning: 0
   nframe: 0
   lastframetime: 0
@@ -13557,7 +13559,7 @@ MonoBehaviour:
   last_connected_time: 0
   lostConnectionTimeout_ms: 5000
   frametime_loop_running: 0
-  codebook: {fileID: 0}
+  codebook: {fileID: 4900000, guid: 0b3fec475bd5e5343b9be09135ff98fe, type: 3}
   targetFrameRate: 60
   FRAMESPERCODEBIT: -1
   selectionThreshold: 0.1
@@ -14309,7 +14311,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.71e-43, y: 4.2201596e-36, z: 6.71e-43, w: 0}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 3e-45, z: 1.3881e-41, w: 1.37753e-40}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0

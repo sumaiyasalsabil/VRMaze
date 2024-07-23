@@ -80,13 +80,6 @@ public class NoisetagBehaviour : MonoBehaviour
         Debug.Log("Invoking:" + selectedEvent.ToString());
         selectedEvent.Invoke();
         selectedObjectEvent.Invoke(this.gameObject);
-
-        // NEW CODE to turn arrow green when selected
-        MeshRenderer meshRenderer = gameObject.GetComponent<MeshRenderer>();
-        if (meshRenderer != null)
-        {
-            meshRenderer.material.color = Color.green;
-        }
     }
 
     public void OnPrediction(float Perr)
