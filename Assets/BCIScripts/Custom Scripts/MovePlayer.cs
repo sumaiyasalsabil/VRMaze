@@ -16,8 +16,8 @@ public class MovePlayer : MonoBehaviour
 
     private void Awake()
     {
-        turnLeft = new Vector3(0, -90, 0);
-        turnRight = new Vector3(0, 90, 0);
+        turnLeft = new Vector3(0f, -90f, 0f);
+        turnRight = new Vector3(0f, 90f, 0f);
     }
 
     public void MoveForward()
