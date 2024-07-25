@@ -18476,7 +18476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e1a23389a7c6f94a8786442ccb41e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 10
+  movementSpeed: 50
   turnLeft: {x: 0, y: 0, z: 0}
   turnRight: {x: 0, y: 0, z: 0}
 --- !u!1001 &3257631069116033653

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
+    public CharacterController characterController;
+    private Vector3 moveTo;
     [SerializeField]
     private float movementSpeed;
     private Vector3 turnDirection;
@@ -21,7 +23,8 @@ public class MovePlayer : MonoBehaviour
     public void MoveForward()
     {
         // Move forward [along the gameobject's Z axis] at a certain speed
-        transform.position += transform.forward * Time.deltaTime * movementSpeed;
+        moveTo = transform.forward * Time.deltaTime * movementSpeed;
+        characterController.Move(moveTo); // this move is constrained by collisons in the environment
     }
 
     [Tooltip("Type in either \"L\" or \"R\"")]
