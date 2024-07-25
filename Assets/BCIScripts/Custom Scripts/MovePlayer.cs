@@ -33,5 +33,10 @@ public class MovePlayer : MonoBehaviour
         // Rotate [along the gameobject's Y axis] to the left by -90°, or to the right by 90°
         turnDirection = direction == "L" ? turnLeft : turnRight;
         transform.Rotate(turnDirection * Time.deltaTime * movementSpeed, Space.World);
+
+        /*
+        turnAngle = direction == "L" ? -90f : 90f;
+        transform.Rotate(0f, turnAngle, 0f, Space.World);
+        */
     }
 }
