@@ -10,10 +10,12 @@ public class StartNoisetagFlicker : MonoBehaviour
         NoisetagController.Instance.startPrediction(10);
     }
 
+    /*
     // Update is called once per frame
     void Update()
     {
 
-        //NoisetagController.Instance.startPrediction(10);
+        NoisetagController.Instance.startPrediction(10);
     }
+    */
 }

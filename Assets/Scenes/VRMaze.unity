@@ -6267,7 +6267,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796352011}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f411bcee60cdeda40a67f0367c3468cb, type: 3}
   m_Name: 
@@ -14261,7 +14261,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.05e-43, z: 2.1684e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 6e-44, z: 1.1e-44, w: 2.07e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -18464,6 +18464,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8298045291338814965, guid: 188ea07c6da828b47822e294a6deddaa, type: 3}
   m_PrefabInstance: {fileID: 2779669268269126897}
   m_PrefabAsset: {fileID: 0}
+--- !u!143 &2779669268269126902 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 3639148551234328385, guid: 188ea07c6da828b47822e294a6deddaa, type: 3}
+  m_PrefabInstance: {fileID: 2779669268269126897}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2779669268269126904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18476,9 +18481,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e1a23389a7c6f94a8786442ccb41e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterController: {fileID: 2779669268269126902}
   movementSpeed: 50
-  turnLeft: {x: 0, y: 0, z: 0}
-  turnRight: {x: 0, y: 0, z: 0}
+  turnLeft: {x: 0, y: -180, z: 0}
+  turnRight: {x: 0, y: 180, z: 0}
 --- !u!1001 &3257631069116033653
 PrefabInstance:
   m_ObjectHideFlags: 0
