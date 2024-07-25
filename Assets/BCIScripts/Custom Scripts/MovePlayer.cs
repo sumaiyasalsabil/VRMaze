@@ -7,14 +7,15 @@ public class MovePlayer : MonoBehaviour
     [SerializeField]
     private float movementSpeed;
     private Vector3 turnDirection;
+    [SerializeField]
     private Vector3 turnLeft;
+    [SerializeField]
     private Vector3 turnRight;
 
     private void Awake()
     {
-        movementSpeed = 1.0f;
-        turnLeft = new Vector3(0, -1, 0);
-        turnRight = new Vector3(0, 1, 0);
+        turnLeft = new Vector3(0, -90, 0);
+        turnRight = new Vector3(0, 90, 0);
     }
 
     public void MoveForward()

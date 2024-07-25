@@ -18477,6 +18477,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 10
+  turnLeft: {x: 0, y: 0, z: 0}
+  turnRight: {x: 0, y: 0, z: 0}
 --- !u!1001 &3257631069116033653
 PrefabInstance:
   m_ObjectHideFlags: 0
