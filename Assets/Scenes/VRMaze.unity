@@ -12726,10 +12726,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 807051348}
     m_Modifications:
-    - target: {fileID: 3735047472340101370, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 487833529046422131, guid: 809f547a3767dbe42bb40dce1d88552e, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -12892,6 +12888,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9213841042329470732, guid: 809f547a3767dbe42bb40dce1d88552e, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735047472340101370, guid: 085ce58b196caa446a8545c9dd388793, type: 3}
+      propertyPath: m_PresetInfoIsWorld
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14261,7 +14261,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 6e-44, z: 1.1e-44, w: 2.07e-41}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 8e-45, z: 4.256e-42, w: 1}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -18268,6 +18268,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2542241161429875024, guid: 188ea07c6da828b47822e294a6deddaa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7277802327414017196, guid: 188ea07c6da828b47822e294a6deddaa, type: 3}
       propertyPath: m_BackGroundColor.a
       value: 1
@@ -18482,6 +18486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 2779669268269126902}
+  BCIControls: {fileID: 26784760}
   movementSpeed: 50
   turnLeft: {x: 0, y: -180, z: 0}
   turnRight: {x: 0, y: 180, z: 0}

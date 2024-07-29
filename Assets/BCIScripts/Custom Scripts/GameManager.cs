@@ -54,7 +54,7 @@ public class MazeGameManager : MonoBehaviour
     {
         Debug.Log("BCI Connected");
     }
-
+/*
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -67,5 +67,5 @@ public class MazeGameManager : MonoBehaviour
             NoisetagController.Instance.stopFlicker();
             NoisetagController.Instance.modeChange("idle");
         }
-    }
+    }*/
 }
