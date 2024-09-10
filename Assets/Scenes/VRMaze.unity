@@ -263,7 +263,7 @@ Transform:
   m_GameObject: {fileID: 26784760}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.246, z: 0.396}
+  m_LocalPosition: {x: 0.01, y: 0.41, z: 0.396}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14261,7 +14261,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 8e-45, z: 4.256e-42, w: 1}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 4e-45, z: 1.8052e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -18487,9 +18487,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterController: {fileID: 2779669268269126902}
   BCIControls: {fileID: 26784760}
-  movementSpeed: 50
-  turnLeft: {x: 0, y: -180, z: 0}
-  turnRight: {x: 0, y: 180, z: 0}
+  movementSpeed: 80
+  turnLeft: {x: 0, y: 0, z: 0}
+  turnRight: {x: 0, y: 0, z: 0}
 --- !u!1001 &3257631069116033653
 PrefabInstance:
   m_ObjectHideFlags: 0
