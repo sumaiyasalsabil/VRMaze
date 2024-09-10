@@ -10,6 +10,10 @@ Ensure EEG device is connected to computer. Note the port number.
 
 STARTING THE BCI SYSTEM
 
+Clone this repo: https://github.com/mindaffect/pymindaffectBCI
+
+Move it to inside the VRMaze directory. 
+
 In the terminal, navigate to the VRMaze directory. 
 
 > cd pymindaffectBCI/mindaffectBCI
@@ -29,4 +33,8 @@ Clone this repo. Then, open the game using Unity Hub. Connect VR device to compu
 
 If using MetaQuest, ensure MetaQuest PC app is downloaded on computer. On VR device, connect using QuestLink. 
 
+
 INSTRUCTIONS
+
+Focus on the flashing arrow to navigate your way through the maze. Right and left turn 90 degrees in their respective directions. Straight goes forward. The arrow you choose turns green. Arrows disappear for 2 seconds after each choice.
+
