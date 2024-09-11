@@ -1,4 +1,4 @@
-# SETTING UP EEG DEVICE
+# Setting Up EEG Device
 
 If using the OpenBCI Ganglion, you can follow the setup guide here: [OpenBCI Ganglion Setup Guide](https://docs.openbci.com/GettingStarted/Boards/GanglionGS/).\
 You won't need the OpenBCI GUI for this game, but feel free to use it to ensure the EEG is working. 
@@ -6,7 +6,9 @@ You won't need the OpenBCI GUI for this game, but feel free to use it to ensure 
 Place electrodes as shown in the image, following the 10-20 system. For more information, see the paper on optimal electrode placements for SSVEP based BCI system [here](https://ieeexplore.ieee.org/document/8914280).
 
 Ensure EEG device is connected to your computer and note the port number.
+
 ---
+
 # STARTING THE BCI SYSTEM
 
 Clone this repo: https://github.com/mindaffect/pymindaffectBCI
