@@ -36,7 +36,7 @@ NOTE: the default board id is set to the Ganglion board (`board_id = 1`).
 
 ## Starting the Game
 
-Clone this repo. Then, open the game using Unity Hub. Connect VR device to computer and start the game on Unity. 
+Clone this repo. Then, open the game using Unity Hub (last tested on ___ engine). Connect VR device to computer and start the game on Unity. 
 
 If using MetaQuest, ensure MetaQuest PC app is downloaded on computer. On VR device, connect using QuestLink. 
 
