@@ -1,9 +1,9 @@
 # SETTING UP EEG DEVICE
 
-If using the OpenBCI Ganglion, you can follow the setup guide here: [OpenBCI Ganglion Setup Guide](https://docs.openbci.com/GettingStarted/Boards/GanglionGS/).
-You won't be needing the OpenBCI GUI for this game but feel free to use it to make sure everything is running smoothly. 
+If using the OpenBCI Ganglion, you can follow the setup guide here: [OpenBCI Ganglion Setup Guide](https://docs.openbci.com/GettingStarted/Boards/GanglionGS/).\
+You won't need the OpenBCI GUI for this game, but feel free to use it to ensure the EEG is working. 
 
-Place electrodes as shown in the image (following the 10-20 system). As per: https://ieeexplore.ieee.org/document/8914280
+Place electrodes as shown in the image, following the 10-20 system. For more information, see the paper on ideal electrode placements for SSVEP [here](https://ieeexplore.ieee.org/document/8914280).
 
 Ensure EEG device is connected to computer. Note the port number.
 
