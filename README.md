@@ -12,11 +12,13 @@ Ensure EEG device is connected to your computer and note the port number.
 
 ## Starting the BCI System
 
-Clone this repo: https://github.com/mindaffect/pymindaffectBCI
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/mindaffect/pymindaffectBCI
 
-Move it to inside the VRMaze directory. 
+2. Move the cloned repo inside the VRMaze directory. 
 
-In the terminal, navigate to the VRMaze directory. 
+3. In the terminal, navigate to the VRMaze directory. 
 
 > cd pymindaffectBCI/mindaffectBCI
 
