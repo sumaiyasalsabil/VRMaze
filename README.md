@@ -5,7 +5,7 @@ You won't need the OpenBCI GUI for this game, but feel free to use it to ensure 
 
 Place electrodes as shown in the image, following the 10-20 system. For more information, see the paper on optimal electrode placements for SSVEP based BCI system [here](https://ieeexplore.ieee.org/document/8914280).
 
-Ensure EEG device is connected to computer and note the port number.
+Ensure EEG device is connected to your computer and note the port number.
 
 
 # STARTING THE BCI SYSTEM
