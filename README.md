@@ -18,14 +18,17 @@ Ensure EEG device is connected to your computer and note the port number.
 
 2. Move the cloned repo inside the VRMaze directory. 
 
-3. In the `pymindaffectBCI/mindaffectBCI` directory, locate the `noisetag_bci.json` file. Edit the `board_id` according to the [BrainFlow documentation](https://brainflow.readthedocs.io/en/stable/UserAPI.html?highlight=board%20id#brainflow-board-shim) and update the serial port to match the port you're using. NOTE: the default is set to the Ganglion board (`board_id = 1`).
+3. In the `pymindaffectBCI/mindaffectBCI` directory, locate the `noisetag_bci.json` file. Edit the `board_id` according to the [BrainFlow documentation](https://brainflow.readthedocs.io/en/stable/UserAPI.html?highlight=board%20id#brainflow-board-shim) and update the serial port to match the port you're using.\ NOTE: the default board id is set to the Ganglion board (`board_id = 1`).
 
+   ***insert pic of file***
 
-Then navigate back to main VRMaze directory. 
+5. Inside the VRMaze directory, run `start_bci.bat`. In the popup, select the `noisetag_bci.json` file.
+   ```bash
+   start_bci.bat
 
-> start_bci.bat
+6. Two new terminal windows should pop up. Ensure the message is as follows. Leave them running in the background.
 
-In the popup, select the noisetag_bci.json file.
+   ***insert pic of file***
 
 
 ## Starting the Game
