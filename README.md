@@ -1,5 +1,6 @@
 # What is this
 ***video***
+** maze from above**
 
 A VR maze that is navigated using an SSVEP-based BCI system.
 
