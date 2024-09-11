@@ -1,6 +1,6 @@
 # SETTING UP EEG DEVICE
 
-If using the OpenBCI Ganglion, you can follow the setup guide here: https://docs.openbci.com/GettingStarted/Boards/GanglionGS/
+If using the OpenBCI Ganglion, you can follow the setup guide here: [OpenBCI Ganglion Setup Guide](https://docs.openbci.com/GettingStarted/Boards/GanglionGS/)
 You won't be needing the OpenBCI GUI for this game but feel free to use it to make sure everything is running smoothly. 
 
 Place electrodes as shown in the image (following the 10-20 system). As per: https://ieeexplore.ieee.org/document/8914280
