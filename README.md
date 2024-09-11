@@ -28,9 +28,13 @@ NOTE: the default board id is set to the Ganglion board (`board_id = 1`).
 
    ***insert pic of file***
 
-4. Inside the VRMaze directory, run `start_bci.bat`. In the popup, select the `noisetag_bci.json` file.
+4. Inside the VRMaze directory, run `start_bci.bat`. In the popup, select the `noisetag_bci.json` file as your config file.
    ```bash
    start_bci.bat
+
+   >>> If for any reason the bat file doesn't work, you can do it manually. 1. in one terminal run UtopiaHub: python3 -m mindaffectBCI.decoder.startUtopiaHub 2. in another terminal: python3 -m mindaffectBCI.online_bci and select the noisetag_bci.json file as your config file
+
+   
 
 5. Two new terminal windows should pop up. Ensure the message is as follows. Leave them running in the background.
 
