@@ -1,4 +1,4 @@
-# Setting Up EEG Device
+# EEG Setup
 
 If using the OpenBCI Ganglion, you can follow the setup guide here: [OpenBCI Ganglion Setup Guide](https://docs.openbci.com/GettingStarted/Boards/GanglionGS/).\
 You won't need the OpenBCI GUI for this game, but feel free to use it to ensure the EEG is working. 
@@ -9,7 +9,7 @@ Ensure EEG device is connected to your computer and note the port number.
 
 ---
 
-# STARTING THE BCI SYSTEM
+# Starting the BCI System
 
 Clone this repo: https://github.com/mindaffect/pymindaffectBCI
 
@@ -28,14 +28,14 @@ Then navigate back to main VRMaze directory.
 In the popup, select the noisetag_bci.json file.
 
 
-# STARTING THE GAME
+# Starting the Game
 
 Clone this repo. Then, open the game using Unity Hub. Connect VR device to computer and start the game on Unity. 
 
 If using MetaQuest, ensure MetaQuest PC app is downloaded on computer. On VR device, connect using QuestLink. 
 
 
-# INSTRUCTIONS
+# Instructions
 
 Focus on the flashing arrow to navigate your way through the maze. Right and left turn 90 degrees in their respective directions. Straight goes forward. The arrow you choose turns green. Arrows disappear for 2 seconds after each choice.
 
