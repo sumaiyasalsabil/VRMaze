@@ -1,6 +1,5 @@
 # What is this
-***video***
-** maze from above**
+***video*** 
 
 A VR maze that is navigated using an SSVEP-based BCI system.
 
@@ -49,4 +48,6 @@ If using MetaQuest, ensure MetaQuest PC app is downloaded on computer. On VR dev
 # Instructions
 
 Focus on the flashing arrow to navigate your way through the maze. Right and left turn 90 degrees in their respective directions. Straight goes forward. The arrow you choose turns green. Arrows disappear for 2 seconds after each choice.
+***diagram of arrows***
+***pic of maze from above***
 
