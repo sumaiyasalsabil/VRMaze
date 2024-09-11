@@ -28,7 +28,7 @@ Ensure EEG device is connected to your computer and note the port number.
 
 6. Two new terminal windows should pop up. Ensure the message is as follows. Leave them running in the background.
 
-   ***insert pic of file***
+   ***insert pic of terminal windows***
 
 
 ## Starting the Game
