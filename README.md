@@ -1,4 +1,4 @@
-# EEG Setup
+## EEG Setup
 
 If using the OpenBCI Ganglion, you can follow the setup guide here: [OpenBCI Ganglion Setup Guide](https://docs.openbci.com/GettingStarted/Boards/GanglionGS/).\
 You won't need the OpenBCI GUI for this game, but feel free to use it to ensure the EEG is working. 
