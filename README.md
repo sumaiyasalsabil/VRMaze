@@ -1,4 +1,7 @@
 # What is this
+***video***
+
+A VR maze that is navigated using an SSVEP-based BCI system.
 
 # Start
 ## EEG Setup
@@ -33,6 +36,7 @@ NOTE: the default board id is set to the Ganglion board (`board_id = 1`).
 
    ***insert pic of terminal windows and explain each***
 
+___
 
 ## Starting the Game
 
