@@ -1,3 +1,4 @@
+# Start
 ## EEG Setup
 
 If using the OpenBCI Ganglion, you can follow the setup guide here: [OpenBCI Ganglion Setup Guide](https://docs.openbci.com/GettingStarted/Boards/GanglionGS/).\
@@ -9,7 +10,7 @@ Ensure EEG device is connected to your computer and note the port number.
 
 ---
 
-# Starting the BCI System
+## Starting the BCI System
 
 Clone this repo: https://github.com/mindaffect/pymindaffectBCI
 
@@ -28,7 +29,7 @@ Then navigate back to main VRMaze directory.
 In the popup, select the noisetag_bci.json file.
 
 
-# Starting the Game
+## Starting the Game
 
 Clone this repo. Then, open the game using Unity Hub. Connect VR device to computer and start the game on Unity. 
 
