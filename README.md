@@ -8,11 +8,11 @@ A VR maze that is navigated using an SSVEP-based BCI system.
 
 If using the OpenBCI Ganglion, you can follow the setup guide here: [OpenBCI Ganglion Setup Guide](https://docs.openbci.com/GettingStarted/Boards/GanglionGS/).\
 NOTE: You won't need the OpenBCI GUI for this game, but feel free to use it to ensure the EEG is working. 
-
+\\
 ![Electrode Placement](images/EEG-placement.png)
-Place electrodes as shown in the image, following the 10-20 system. For more information, see the paper on optimal electrode placements for an SSVEP-based BCI system [here](https://ieeexplore.ieee.org/document/8914280).
+Place electrodes as shown in the image, following the 10-20 system. For more information, see the [paper](https://ieeexplore.ieee.org/document/8914280) on optimal electrode placements for an SSVEP-based BCI system.
 
-Ensure EEG device is connected to your computer and note the port number (on Wndows go to Device Manager).
+Ensure EEG device is connected to your computer and note the port number (on Windows, go to Device Manager).
 
 ---
 
@@ -25,15 +25,16 @@ Ensure EEG device is connected to your computer and note the port number (on Wnd
 2. Move the cloned repo inside the VRMaze directory. 
 
 3. In the `pymindaffectBCI/mindaffectBCI` directory, locate the `noisetag_bci.json` file. Edit the `board_id` according to the [BrainFlow documentation](https://brainflow.readthedocs.io/en/stable/UserAPI.html?highlight=board%20id#brainflow-board-shim) and update the serial port to match the port you're using. \
-NOTE: the default board id is set to the Ganglion board (`board_id = 1`).
+NOTE: the default board id is set to the Ganglion board (`board_id = 1`) and the port to `com6`.
 
-   ***insert pic of file***
+![Noisetag File](images/noisetag-file.png)
 
-4. Inside the VRMaze directory, run `start_bci.bat`. In the popup, select the `noisetag_bci.json` file as your config file.
+4. Inside the `pymindaffectBCI` directory, run `start_bci.bat`. In the popup, select the `noisetag_bci.json` file as your config file.
    ```bash
    start_bci.bat
 
-   >>> If for any reason the bat file doesn't work, you can do it manually. 1. in one terminal run UtopiaHub: python3 -m mindaffectBCI.decoder.startUtopiaHub 2. in another terminal: python3 -m mindaffectBCI.online_bci and select the noisetag_bci.json file as your config file
+
+* If for any reason the bat file doesn't work, you can do it manually. 1. in one terminal run UtopiaHub: python3 -m mindaffectBCI.decoder.startUtopiaHub 2. in another terminal: python3 -m mindaffectBCI.online_bci and select the noisetag_bci.json file as your config file
 
    
 
